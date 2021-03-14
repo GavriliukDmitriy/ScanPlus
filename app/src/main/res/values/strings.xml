@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Сканирование и ввод</string>
+    <string name="Enter">Ввод</string>
+    <string name="_1">1</string>
+    <string name="Quantity">Кол-во</string>
+    <string name="SetTotal">Установить итог</string>
+</resources>

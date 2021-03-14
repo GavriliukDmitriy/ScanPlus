@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:screenOrientation="portrait"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/setBtn"
+        android:layout_width="189dp"
+        android:layout_height="77dp"
+        android:layout_below="@+id/textViewScanInfo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="34dp"
+        android:text="@string/Enter"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editQuantity"
+        android:layout_width="111dp"
+        android:layout_height="73dp"
+        android:layout_below="@+id/textViewScanInfo"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/_1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/quantityTextView"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editQuantity"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/Quantity"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewScanInfo"
+        android:layout_width="367dp"
+        android:layout_height="260dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:scrollbars="vertical"
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSetResult"
+        android:layout_width="144dp"
+        android:layout_height="67dp"
+        android:layout_below="@+id/setBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="199dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/SetTotal"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>
