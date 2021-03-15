@@ -4,7 +4,6 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteDatabase;
 import android.content.Context;
-import android.os.Environment;
 import android.util.Log;
 
 import java.io.File;
