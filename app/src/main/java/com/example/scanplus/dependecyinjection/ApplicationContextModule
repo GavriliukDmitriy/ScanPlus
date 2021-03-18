@@ -1,9 +1,9 @@
 @Module
 public class ApplicationContextModule {
     
-    private final Context context;
+    Context context;
 
-    ActivityModule(Activity context){
+    public ApplicationContextModule(Context context){
         this.context = context;
     }
     
@@ -11,6 +11,6 @@ public class ApplicationContextModule {
     @ApplicationScope
     @Provides
     public Context context(){
-    return context.getApplicationContext();
+        return context.getApplicationContext();
     }
 }
