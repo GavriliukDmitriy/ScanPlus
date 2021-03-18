@@ -11,6 +11,6 @@ public class ActivityContextModule {
     @ApplicationScope
     @Provides
     public Context context(){
-    return context;
+        return context;
     }
 }
